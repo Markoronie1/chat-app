@@ -47,12 +47,12 @@ try {
   // Check if Firebase is already initialized
   if (getApps().length === 0) {
     const firebaseConfig = {
-      apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
-      authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
-      projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID,
-      storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET,
-      messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
-      appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
+      apiKey: "AIzaSyBKw0r2LU_goOTHYoznO-as_NLlqhlxHmI",
+      authDomain: "chatweb-77569.firebaseapp.com",
+      projectId: "chatweb-77569",
+      storageBucket: "chatweb-77569.firebasestorage.app",
+      messagingSenderId: "310994500074",
+      appId: "1:310994500074:web:2125b4f90d1e18021cda93",
     }
 
     // Log the config for debugging (remove in production)

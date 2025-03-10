@@ -2,8 +2,8 @@ import { createClient } from "@supabase/supabase-js"
 import type { Database } from "@/types/supabase"
 
 // Create a single supabase client for interacting with your database
-const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || ""
-const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || ""
+const supabaseUrl = "https://gxqcsdlfodraufxglubo.supabase.co" || ""
+const supabaseAnonKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imd4cWNzZGxmb2RyYXVmeGdsdWJvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDEwOTU2NjcsImV4cCI6MjA1NjY3MTY2N30.6f4MiKXm9Pl5T9tWhMzR1b36K_Lo7suIc47AQZT7OH4" || ""
 
 if (!supabaseUrl || !supabaseAnonKey) {
   console.error("Supabase environment variables are not set correctly")
